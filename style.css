@@ -31,6 +31,7 @@
     background-image: url(/images/bg-main-desktop.png);
     background-color: #fff;
     background-repeat: no-repeat;
+    position: relative;
 }
 
 form {
@@ -43,28 +44,57 @@ input {
 }
 
 .card-image {
-    position: relative;
+    position: absolute;
     background-image: url(/images/bg-card-front.png);
     width: 447px;
     height: 245px;
     border-radius: 10px;
+    top: 200px;
+    left: 150px;
+    box-shadow: 0.5px 0.5px;
 }
 
 .second-card-image {
-    
-}
-
-.card-image p {
-    color: white;
-    position: relative;
-}
-
-
-
-.second-card-image {
-    position: relative;
+    position: absolute;
     background-image: url(/images/bg-card-back.png);
     width: 447px;
     height: 245px;
     border-radius: 10px;
+    top: 500px;
+    left: 250px;
+    box-shadow: 0.5px 0.5px;
+}
+
+.svg-img {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+
+#card-number, #card-name, #card-date, #back-number{
+    position: absolute;
+    color: white;
+}
+
+#card-number {
+    top: 150px;
+    left: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+#card-name {
+    top: 200px;
+    left: 30px;
+}
+
+#card-date {
+    top: 200px;
+    left: 355px;
+}
+
+#back-number {
+    top: 110px;
+    left: 350px;
 }
