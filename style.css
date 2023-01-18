@@ -34,9 +34,6 @@
     position: relative;
 }
 
-form {
-    text-align: center;
-}
 
 input {
     outline: 0;
@@ -87,6 +84,7 @@ input {
 #card-name {
     top: 200px;
     left: 30px;
+    text-transform: capitalize;
 }
 
 #card-date {
@@ -97,4 +95,12 @@ input {
 #back-number {
     top: 110px;
     left: 350px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
 }
